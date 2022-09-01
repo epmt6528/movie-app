@@ -1,7 +1,9 @@
 import React from 'react';
 import './styles/App.css';
+import useOmdb from "./services/api/useOmdb";
 
 function App() {
+    useOmdb()
   return (
     <div className="App">
       <header className="App-header">
